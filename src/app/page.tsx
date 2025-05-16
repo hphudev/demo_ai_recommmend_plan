@@ -149,6 +149,7 @@ export default function Home() {
   return (
     <div className='text-center pt-[50px]'>
       <h1 className='font-bold'>AI RECOMMENDED TASK ARRANGEMENT</h1>
+      <h1 className='font-bold'>(Demo)</h1>
       <div className="flex gap-8 items-start justify-center mt-[10%] text-start">
         {/* Todo Form */}
         <form
@@ -164,7 +165,7 @@ export default function Home() {
           <label className="flex flex-col gap-1">
             <span className="font-medium">Priority</span>
             <select defaultValue={'Medium'} name="priority" required className="border border-gray-300 rounded px-2 py-1 focus:outline-none focus:ring-2 focus:ring-blue-400">
-              <option value="">Select</option>
+              {/* <option value="">Select</option> */}
               <option value="High">High</option>
               <option value="Medium">Medium</option>
               <option value="Low">Low</option>
