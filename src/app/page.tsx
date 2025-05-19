@@ -11,7 +11,7 @@ type Todo = {
   description?: string;
   time_recommend?: string;
 };
-const apiKey = 'AIzaSyDFiSPyIDWVMNKkRvWL0dKG5jXcN32oEDU'
+
 const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${process.env.NEXT_PUBLIC_API_KEY}`;
 
 // TodoTable component
