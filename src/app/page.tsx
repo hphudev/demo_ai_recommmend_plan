@@ -149,7 +149,7 @@ export default function Home() {
   return (
     <div className='text-center pt-[50px]'>
       <h1 className='font-bold'>AI RECOMMENDED TASK ARRANGEMENT</h1>
-      <h1 className='font-bold'>(Demo)</h1>
+      {/* <h1 className='font-bold'>(Demo)</h1> */}
       <div className="flex gap-8 items-start justify-center mt-[10%] text-start">
         {/* Todo Form */}
         <form
