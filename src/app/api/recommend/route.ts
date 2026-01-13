@@ -30,7 +30,7 @@ export async function POST(req: Request) {
       return NextResponse.json({ error: "No API Keys found. Please set API_KEY_1, API_KEY_2... in .env" }, { status: 500 });
     }
 
-    const { todos } = await req.json();
+    const { todos }: { todos: any[] } = await req.json();
 
     // Thử gọi API với cơ chế xoay vòng (Rotation)
     let lastError: any = null;
